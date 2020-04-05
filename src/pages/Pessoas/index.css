@@ -1,0 +1,62 @@
+.pessoas_filtro {
+    background-color: #4682B4;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.pessoas_filtro input {
+    margin-left: 10px;
+}
+
+.pessoas_filtro button {
+    margin-left: 10px;
+}
+
+.pessoas_botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 10px;
+}
+
+.pessoas_btn_crud a {
+    background-color: #4682B4;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px 10px;
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pessoas_btn_crt a {
+    background-color: #4682B4;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 5px 10px;
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pessoas_lista {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pessoas_tabela {
+    display: flex;
+    justify-content: center;
+
+    background-color: #FFF;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    max-height: 600px;
+}
+
+.pessoas_tabela table {
+    border-color: #000;
+}

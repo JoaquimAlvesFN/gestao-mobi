@@ -1,0 +1,39 @@
+.home_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home_card {
+    background-color: #FFF;
+    width: 100%;
+    max-width: 800px;
+    height: 200px;
+
+    margin-top: 20px;
+
+    padding: 10px;
+}
+
+.home_infocard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.home_contentcard {
+    background-color: #4682B4;
+    height: 120px;
+    width: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_contentcard p {
+    font-size: 30px;
+    font-weight: bold;
+}
